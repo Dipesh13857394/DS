@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+html, body {
+    font-family: sans-serif;
+    height: 100%;
+    min-height: 100%;
+}
+
+.header {
+    width: 100%;
+    /* height: 130px;  */
+    display: block;
+    margin: 0 auto;
+    background-color: #FFB423;
+}
+.header .banner {
+    height: 30px;
+    background: #363940;
+}
+
+.innerHeader {
+    width: 90%;
+    margin: 0 auto;    
+}
+
+
+
+/* ## header container set */
+
+
+
+.banner p {
+    color: #FFB423;
+    float: right;
+    padding-top: 8px;
+}
+
+.txt1:hover {
+    text-decoration: underline;
+}
+
+/* social icons and info dispalyed */
+
+
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #FFB423;
+    transition: all 0.5s ease-in-out;   
+}
+
+.nav.active {
+    background: #F0FFF3;
+    position: fixed;
+}
+
+.nav.active a {
+    color: crimson;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container img {
+    width: 300px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    object-fit: scale-down;
+    float: left;
+
+}
+
+.logo-container p {
+    font-family: Pacifico;
+    margin: 20px auto;
+    display: flex;
+    font-size: 2em;
+    float: left;
+}
+
+.fl {
+    font-size: 2.5rem;
+}
+
+
+.nav-items {
+    float: right;
+    display: table;
+    height: 100%;
+}
+
+.navList {
+    list-style: none;
+    float: left;
+    padding: 40px 30px;
+}
+
+.nav-items li a {
+    color: #363940;
+    font-size: 1.2em;
+}
+
+
+
+/* Heading CSS up and main starts below */
+
+
+.aw {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    /* height: auto; */
+}
+
+.ltl img{
+    /* max-width: 575px; */
+
+    max-height: 550px;
+}
+
+.inner-aw {
+    width: 100%;
+    height: 100%;
+    float: right;
+    color: #C7C04C;
+    letter-spacing: 0.3em;
+    font-size: 2em;
+    padding: 50px;
+    font-family: sans-serif;
+
+}
+
+.inner-aw .textp h2 {
+    padding: 60px;
+    color: #91699D;
+}
+
+.inner-aw .textp h5 {
+    padding: 40px;
+    color: black;
+    letter-spacing: 0.1em;
+    float: right;
+}
+
+.button1 {
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+button {
+    font-family: sans-serif;
+}
+
+.btn1 {
+    color: #F0FFF3;
+    padding: 15px 15px 15px 15px;
+    font-size: 30px;
+    background-color: #363940;
+    border-radius: 12px ;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.btn1:hover {
+    color: #F0FFF3;
+    background-color: #52575d ;
+    opacity: 50%;
+}
